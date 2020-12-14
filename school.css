@@ -1,0 +1,92 @@
+/*the page arrangement goes here*/
+.content{
+    max-width: 500px;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+/*the page arrangement ends here*/
+
+
+/*the navigation bar begins here*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+.push{
+    display: none;
+}
+nav ul li a{
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 14px 10px;
+    display: block;
+    font-size: 15px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+nav .nav-image img{
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*navigation bar button*/
+.btn{
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 7px 20px;
+    font-weight: bold;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: green;
+}
+/*navigation bar button ends here*/
+
+nav ul li a:hover:not(.small-list a){
+    color: grey;
+    text-decoration: underline;
+}
+/*navigation bar ends here*/

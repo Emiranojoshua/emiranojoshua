@@ -1,0 +1,105 @@
+.trainers{
+    text-align: center;
+    padding : 5%;
+}
+.trainers h3{
+    color: green;
+}
+.departments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3%;
+}
+.teachup-slide{
+    transform: translatey(-40px);
+    -webkit-transform: translatey(-40px);
+    -moz-transform: translatey(-40px);
+    -ms-transform: translatey(-40px);
+    -o-transform: translatey(-40px);
+}
+.teach-slide, .teachup-slide{
+    width: 20%;
+    cursor: pointer;
+}
+.teach-slide img, .teachup-slide img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.teach-slide:hover img{
+    transform: translatey(-15px);
+    -webkit-transform: translatey(-15px);
+    -moz-transform: translatey(-15px);
+    -ms-transform: translatey(-15px);
+    -o-transform: translatey(-15px);
+}
+.teachup-slide:hover img{
+    transform: translatey(-20px);
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+    -ms-transform: translatey(-20px);
+    -o-transform: translatey(-20px);
+}
+.teachup-slide .button1{
+    color: black;
+    background-color: white;
+    outline: none;
+    border:  1px solid black;
+    border: 10px;
+    padding: 20px;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    box-shadow: 0px 0px 10px 1px black;
+}
+.teachup-slide .button2{
+    color: black;
+    background-color: white;
+    outline: none;
+    border:  1px solid black;
+    border: 10px;
+    padding: 20px;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    box-shadow: 0px 0px 10px 1px black;
+}
+.button3{
+    color: black;
+    background-color: white;
+    outline: none;
+    border:  1px solid black;
+    border: 10px;
+    padding: 20px;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    box-shadow: 0px 0px 10px 1px black;
+}
+.button4{
+    color: black;
+    background-color: white;
+    outline: none;
+    border:  1px solid black;
+    border: 10px;
+    padding: 20px;
+    transform: translate(100%, -50%);
+    -webkit-transform: translate(100%, -50%);
+    -moz-transform: translate(100%, -50%);
+    -ms-transform: translate(100%, -50%);
+    -o-transform: translate(100%, -50%);
+    box-shadow: 0px 0px 10px 1px black;
+}
+

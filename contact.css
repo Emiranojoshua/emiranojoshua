@@ -1,0 +1,100 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+}
+.login{
+    flex: 50%;
+    padding-right: 5%;
+    padding: 3%;
+}
+.contact-image img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contact-image{
+    flex: 50%;
+}
+.contact-image img{
+    width: 100%;
+    height: 100%;
+}
+.login ul{
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+}
+.login ul .reply{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.login ul .replyStatement{
+    color: green;
+    font-weight: bolder;
+}
+.loginForms{
+    padding-top: 7%;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border:  0.5px solid grey;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+input[type=text]:focus, textarea:focus{
+    background-color: white;
+    border: 2px solid green;
+}
+.loginForm{
+    padding-top: 5%;
+}
+label{
+    font-weight: bolder;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3%;
+}
+.loginForms input[type=submit]{
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none;
+    border: 2px solid green;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.loginForms input[type=submit]:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}

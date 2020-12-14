@@ -1,0 +1,18 @@
+.benefits{
+    padding: 5%;
+}
+.benefits-main h4, .benefits h1{
+    margin-bottom: 30px;
+}
+.benefits-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.benefits-content-main{
+    flex: 50%;
+}
+.benefits-content-overflow{
+    flex: 50%;
+}
